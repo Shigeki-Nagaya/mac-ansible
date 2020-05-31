@@ -1,69 +1,87 @@
 homebrew_taps:
-  - heroku/brew
+  #- heroku/brew
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
-  - heroku/brew
+  #- heroku/brew
 homebrew_cask_packages:
-  - name: adobe-creative-cloud
-  - name: alfred
   - name: appcleaner
+  # - name: adobe-creative-cloud
+  - name: alfred
   # - name: arduino
-  - name: balenaetcher
-  - name: bartender
-  - name: bitwarden
+  #- name: balenaetcher
+  #- name: bartender
+  #- name: bitwarden
+  - name: bbedit
+  - name: clipy
   - name: cyberduck
-  - name: db-browser-for-sqlite
-  - name: deepl
+  #- name: db-browser-for-sqlite
+  #- name: deepl
   - name: docker
   - name: drawio
   - name: firefox
-  - name: fritzing
+  - name: font-ricty-diminished
+  #- name: fritzing
   - name: google-chrome
-  - name: google-cloud-sdk
-  - name: google-japanese-ime
-  - name: hyperswitch
-  - name: karabiner-elements
-  # - name: mutagen-io/mutagen/mutagen
-  - name: ngrok
-  - name: notable
-  - name: notion
-  - name: postman
-  - name: sequel-pro-nightly
+  #- name: google-cloud-sdk
+  #- name: google-japanese-ime
+  #- name: hyperswitch
+  - name: iterm2
+  #- name: karabiner-elements
+  #- name: mutagen-io/mutagen/mutagen
+  #- name: ngrok
+  #- name: notable
+  #- name: notion
+  - name: osxfuse
+  #- name: postman
+  #- name: sequel-pro-nightly
   - name: skitch
-  - name: skype
+  #- name: skype
   - name: slack
-  - name: startninja
-  - name: thunderbird
+  #- name: startninja
+  #- name: thunderbird
   - name: vagrant
   - name: virtualbox
-  - name: visual-studio-code
+  #- name: visual-studio-code
   - name: xmind
+  - name: xquartz
 homebrew_packages:
   - name: ansible
   - name: autoconf
   - name: awscli
+  - name: byobu
   - name: bash-completion
-  - name: bitwarden-cli
+  #- name: bitwarden-cli
+  - name: cairo
   - name: cmake
   - name: docker
+  - name: docker-compose
+  - name: exa
+  - name: fd
+  - name: fontconfig
   - name: git
-  - name: heroku
+  #- name: heroku
   - name: hub
   - name: jq
   - name: mas
-  - name: minikube
+  #- name: minikube
   - name: nkf
+  - name: ripgrep
   # - name: terraform
-  - name: tfenv
+  #- name: tfenv
+  - name: ssh-copy-id
+  - name: sshpass
+  - name: sshfs
+  - name: sshfs
   - name: tig
   - name: tmux
   - name: tree
   - name: vim
+  - name: neovim
   - name: wget
 dot_files:
-  - name: bash_profile
-  - name: bashrc
-  - name: tmux.conf
-  - name: vimrc
+  #- name: bash_profile
+  #- name: bashrc
+  #- name: tmux.conf
+  #- name: vimrc
 
